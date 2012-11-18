@@ -108,7 +108,7 @@ footer p {
   color: #f2f2f2;
 }
 
-a {
+#main_content a {
   text-decoration: none;
   color: #007edf;
   text-shadow: none;
@@ -130,10 +130,6 @@ a {
   text-shadow: #0090ff 0px 0px 2px;
 }
 
-footer a:hover {
-  color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
-}
 
 em {
   font-style: italic;
@@ -299,6 +295,10 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+}
+
+header a{
+	text-decoration: none;
 }
 
 #header_wrap .inner {
